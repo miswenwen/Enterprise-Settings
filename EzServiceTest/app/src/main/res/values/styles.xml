@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:textAppearanceListItem">@style/IPhone.TextAppearance.ListItem</item>-->
+        <!--<item name="android:textAppearanceListItemSecondary">@style/IPhone.TextAppearance.ListItem.Secondary</item>-->
+        <!--<item name="android:textColorSecondary">@color/textColorPrimary</item>-->
+    <!--</style>-->
+    <!--<style name="IPhone.TextAppearance.ListItem" parent="@*android:style/TextAppearance.Material.Subhead">-->
+        <!--<item name="android:textSize">24dp</item>-->
+        <!--<item name="android:textColor">@color/textColorPrimary</item>-->
+    <!--</style>-->
+    <!--<style name="IPhone.TextAppearance.ListItem.Secondary" parent="@*android:style/TextAppearance.Material.Body1">-->
+        <!--<item name="android:textSize">16dp</item>-->
+    </style>
+</resources>

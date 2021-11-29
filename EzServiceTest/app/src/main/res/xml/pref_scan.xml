@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="scan_result_action"
+        android:title="@string/scan_result_action_title"
+        android:summary="@string/scan_result_action_summary"
+        />
+    <Preference
+        android:key="scan_result_key"
+        android:title="@string/scan_result_key_title"
+        android:summary="@string/scan_result_key_summary"
+        />
+    <SwitchPreference
+        android:key="scan_btn_keydown"
+        android:title="@string/scan_btn_keydown_title"
+        android:summary="@string/scan_btn_keydown_summary"
+        />
+    <SwitchPreference
+        android:key="scan_btn_keyup"
+        android:title="@string/scan_btn_keyup_title"
+        android:summary="@string/scan_btn_keyup_summary"
+        />
+    <Preference
+        android:key="scan_settings_test"
+        android:title="@string/scan_settings_test_title"
+        android:summary="@string/scan_settings_test_summary"
+        />
+</PreferenceScreen>

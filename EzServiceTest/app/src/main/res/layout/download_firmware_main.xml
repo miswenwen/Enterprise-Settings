@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uri_layout"
+        android:text="@string/download_introduction" />
+
+    <LinearLayout
+        android:id="@+id/uri_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/download_uri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minLines="3" />
+
+        <Button
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:onClick="onClick"
+            android:text="@string/download_btn_text" />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fl_circle_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/uri_layout"
+        android:clickable="true"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tv_count_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_progress"
+            android:paddingStart="20dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="100dp"
+            android:text="@string/downloading_text"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <com.honeywell.ezservicetest.downloadfile.view.KbWithWordsCircleProgressBar
+            android:id="@+id/circle_progress"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+</RelativeLayout>

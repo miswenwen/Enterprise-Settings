@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('honeywellgenerateaar_v2.25_release_210112.aar'))

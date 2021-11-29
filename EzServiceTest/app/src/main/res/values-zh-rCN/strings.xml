@@ -1,0 +1,109 @@
+<resources>
+    <!--general begin-->
+    <string name="app_name">EzServiceTest</string>
+    <string name="scan_header_name">扫描设置</string>
+    <string name="general_header_name">通用设置</string>
+    <string name="reboot_device_title">重启设备</string>
+    <string name="power_off_device_title">关闭设备</string>
+    <string name="serial_number_title">序列号</string>
+    <string name="set_sys_time_title">设置系统时间</string>
+    <string name="set_status_bar_title">状态栏</string>
+    <string name="set_status_bar_summary">启用/禁用</string>
+    <string name="enable_home_key_title">Home键</string>
+    <string name="enable_home_key_summary">启用/禁用</string>
+    <string name="enable_app_switch_key_title">App switch键</string>
+    <string name="enable_app_switch_key_summary">启用/禁用</string>
+    <string name="back_switch_key_title">Back键</string>
+    <string name="back_switch_key_summary">启用/禁用</string>
+    <string name="enable_usb_debug_mode_title">Usb调试</string>
+    <string name="enable_usb_debug_mode_summary">启用/禁用</string>
+
+    <string name="restrict_cellular_data_title">数据流量设置禁用</string>
+    <string name="restrict_cellular_data_summary">开启/关闭</string>
+    <string name="restrict_wifi_title">Wifi设置禁用</string>
+    <string name="restrict_wifi_summary">开启/关闭</string>
+    <string name="restrict_bluetooth_title">蓝牙设置禁用</string>
+    <string name="restrict_bluetooth_summary">开启/关闭</string>
+    <string name="restrict_usb_mtp_title">USB模式设置禁用</string>
+    <string name="restrict_usb_mtp_summary">开启/关闭</string>
+
+    <string name="replace_boot_animation_title">更换开机动画</string>
+    <string name="enable_custom_boot_animtion_title">自定义开机动画</string>
+    <string name="enable_custom_boot_animtion_summary">启用/禁用</string>
+    <string name="runtime_permissions_set_key_title">给予/撤销 动态权限</string>
+    <string name="default_launcher_set_key_title">设置默认桌面</string>
+    <string name="default_launcher_set_key_summary"></string>
+    <string name="enable_never_sleep_title">永不休眠</string>
+    <string name="enable_never_sleep_summary">开启/关闭</string>
+    <string name="enable_nosip_title">禁止输入法弹出</string>
+    <string name="enable_nosip_summary">开启/关闭</string>
+    <string name="enable_usb_mtp_title">USB模式默认为MTP模式</string>
+    <string name="enable_usb_mtp_summary">开启/关闭</string>
+    <string name="enable_media_scan_title">文件扫描</string>
+    <string name="enable_media_scan_summary">切换为MTP模式时是否进行文件扫描</string>
+    <string name="enable_portal_detection_title">Wifi端口监测</string>
+    <string name="enable_portal_detection_summary">开启/关闭</string>
+    <string name="firmware_update_title">固件更新</string>
+    <string name="firmware_update_summary"></string>
+    <!--general end-->
+
+    <!--scan begin-->
+    <string name="scan_result_action_title">扫描结果广播action修改</string>
+    <string name="scan_result_action_summary"></string>
+    <string name="scan_result_key_title">扫描结果广播key修改</string>
+    <string name="scan_result_key_summary"></string>
+    <string name="scan_btn_keydown_title">扫描按键按下广播</string>
+    <string name="scan_btn_keydown_summary">启用/禁用</string>
+    <string name="scan_btn_keyup_title">扫描按键释放广播</string>
+    <string name="scan_btn_keyup_summary">启用/禁用</string>
+    <!--scan end-->
+
+    <!--scan others begin-->
+    <string name="scan_key_default_text">N/A</string>
+    <string name="confirm_btn_text">修改</string>
+    <!--scan others end-->
+
+    <!--general others begin-->
+    <string name="tvLabel_text">应用:</string>
+    <string name="tvName_text">包名:</string>
+    <string name="pkgName_tv_hint">选择应用获取包名</string>
+    <string name="grant_btn_text">给予所有动态权限</string>
+    <string name="revoke_btn_text">撤销所有动态权限</string>
+
+    <string name="download_introduction">输入URL或扫描二维码解析得到URL</string>
+    <string name="download_btn_text">下载</string>
+    <string name="downloading_text">下载中...</string>
+    <string name="silent_install_title">静默安装</string>
+    <string name="silent_install_summary">选择apk文件</string>
+    <string name="silent_uninstall_title">静默卸载</string>
+    <string name="silent_uninstall_summary">输入包名，例如com.xxx.xxx</string>
+    <string name="whitelist_title">白名单</string>
+    <string name="whitelist_summary">默认EzReceiver,EzServiceTest</string>
+    <string name="blacklist_title">黑名单</string>
+    <string name="blacklist_summary">默认Camera,Contact,Music</string>
+    <string name="while_black_list_disable_title">白/黑名单禁用</string>
+    <string name="while_black_list_disable_summary">禁用白/黑名单的功能，重置应用的状态</string>
+    <string name="replace_boot_animation_summary"></string>
+    <string name="runtime_permissions_set_key_summary"></string>
+    <string name="whitelist_enable_summary"></string>
+    <string name="blacklist_enable_summary"></string>
+    <string name="whitelist_enable_title">启用白名单</string>
+    <string name="blacklist_enable_title">启用黑名单</string>
+    <string name="reboot_device_summary"></string>
+    <string name="power_off_device_summary"></string>
+    <string name="serial_number_summary_default"></string>
+    <string name="set_sys_time_summary"></string>
+    <string name="scan_settings_test_title">扫描设置测试</string>
+    <string name="scan_settings_test_summary"></string>
+    <string name="set_time_zone_title">设置时区</string>
+    <string name="set_time_zone_summary">设置为America/Tijuana</string>
+    <string name="battery_info_title">电池信息</string>
+    <string name="battery_info_summary">获取电池串号和充电次数(旧的电池可能拿不到串号)</string>
+    <string name="navigationbar_switch_key_title">虚拟导航栏</string>
+    <string name="navigationbar_switch_key_summary">显示/隐藏</string>
+    <string name="wifi_rssi_switch_key_title">Wifi信号值</string>
+    <string name="wifi_rssi__switch_key_summary">显示/隐藏</string>
+    <string name="battery_level_switch_key_title">电池电量百分比</string>
+    <string name="battery_level__switch_key_summary">显示/隐藏</string>
+    <!--general others end-->
+</resources>
